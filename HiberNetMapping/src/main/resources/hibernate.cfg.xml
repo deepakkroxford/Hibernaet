@@ -17,6 +17,8 @@
         <!-- Entity mappings -->
         <mapping class="com.OneToOneMapping.Answer"/>
         <mapping class="com.OneToOneMapping.Question"/>
+        <mapping class="com.ManayToManyMapping.Emp"/>
+        <mapping class="com.ManayToManyMapping.Project"/>
 
     </session-factory>
 </hibernate-configuration>
