@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Fetch" />
         <module name="HQL" />
+        <module name="Hibernate_Caching" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Caching" target="1.5" />
+      <module name="HibernateCaching" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

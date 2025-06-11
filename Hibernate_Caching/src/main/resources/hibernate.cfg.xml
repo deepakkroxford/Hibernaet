@@ -4,7 +4,7 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mydatabase</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">Aman72578800</property>
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
         <property name="hibernate.show_sql"> true </property>
 
         <!--<!-    The `hibernate.dialect` property in `hibernate.cfg.xml` tells Hibernate which SQL
@@ -14,8 +14,9 @@
          is used for MySQL databases.    &ndash;&gt;-->
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
+
         <!-- Entity mappings -->
-    <mapping class=""/>
+        <mapping class="com.FirstLevel_Caching.Dog"/>
 
     </session-factory>
 </hibernate-configuration>
